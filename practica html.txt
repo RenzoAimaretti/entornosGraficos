@@ -1,0 +1,33 @@
+1-Html es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otrosEl lenguaje html fue creado en 1991, tuvo 5 versiones: 2.0, 3.2, 4.0, 4.01 y el 5.
+2-La w3c establece 4 principios para la creacion de documentos html, debe ser Perceptible, Operable, Comprensible y Robusto.
+3-Los atributos de presentación de HTML son desaprobados cuando existen alternativas con hojas de estilo . Un elemento o atributo obsoleto es aquél para el cual no hay garantía de soporte por parte de un agente de usuario.
+4-Una DTD es un documento que define la estructura de un documento XML: los elementos, atributos, entidades, notaciones, etc, que pueden aparecer, el orden y el número de veces que pueden aparecer, cuáles pueden ser hijos de cuáles. 
+5- Los metadatos suelen describirse como "datos sobre datos". En otras palabras, si el HTML de su página web son datos, los metadatos son información adicional que se utilizan para explicar varias cosas sobre ese HTML. Se deben añadir entre las etiquetas <head> </head> del código HTML
+
+2- a- No es obligatorio.su efecto es crear un comentario y se ubica en cualquier lado del programa. 
+<!-- etiqueta
+ Código controlado el día 12/08/2009 contenido
+→etiqueta
+
+b- es obligatorio , se ubica en el body. su efecto es crear un contenedor
+<div etiqueta de apertura
+id="bloque1" atributo 
+Contenido del bloque1 contenido
+</div> etiqueta de cierre
+
+c-es obligatorio , se ubica en el body. su efecto es crear una imagen 
+ <img etiqueta
+src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32"
+longdesc="detalles.htm" atributo
+
+d-<meta/> etiqueta
+ name="keywords" lang="es" content="casa, compra, venta, alquiler " atributos
+ http-equiv="expires" content="16-Sep-2019 7:49 PM"  atributos 
+
+e- es obligatorio , se ubica en el body. su efecto es crear un enlace.
+<a etiqueta de apertura
+href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8"
+ rel="help">  atributo
+Resumen HTML contenido
+</a> etiqueta de cierre
+
