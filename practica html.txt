@@ -20,9 +20,12 @@ c-es obligatorio , se ubica en el body. su efecto es crear una imagen
 src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32"
 longdesc="detalles.htm" atributo
 
-d-<meta/> etiqueta
+d-es obligatorio, se ubica en el body. su efecto es colocar las palabras clave. 
+<meta/> etiqueta
  name="keywords" lang="es" content="casa, compra, venta, alquiler " atributos
  http-equiv="expires" content="16-Sep-2019 7:49 PM"  atributos 
+ /> etiqueta
+
 
 e- es obligatorio , se ubica en el body. su efecto es crear un enlace.
 <a etiqueta de apertura
@@ -31,3 +34,64 @@ href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" cha
 Resumen HTML contenido
 </a> etiqueta de cierre
 
+f- es obligatorio, se ubica en el body. su efecto es crear una tabla. 
+<table etiqueta
+width="200" summary="Datos correspondientes al ejercicio vencido"> <caption align="top"> atributos
+Título contenido 
+</caption> etiqueta
+<tr> etiqueta
+<th scope="col"> atributos 
+&nbsp; contenido
+</th> etiqueta
+<th scope="col"> atributos
+A contenido
+</th>  etiqueta
+<th scope="col"> atributo
+B contenido
+</th> etiqueta
+<th scope="col"> atributo
+C contenido
+</th> etiqueta
+</tr> etiqueta
+<tr> etiqueta
+<th scope="row"> atributo
+1º contenido
+</th> etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>etiqueta
+<td>etiqueta
+&nbsp;  contenido
+</td>etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>
+</tr>
+<tr>
+<th scope="row"> atributos
+2º contenido
+</th>etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>etiqueta
+<td>etiqueta
+&nbsp; contenido
+</td>etiqueta
+</tr>etiqueta
+</table>etiqueta
+
+
+3. a) 
+Mediante esta linea de codigo se abre Google en la misma ventana que tenemos abierto el sitio.
+
+Mediante esta linea de codigo se abre Google en una nueva ventana con "target"
+
+No hay visualización directa para estos atributos en el contenido del enlace.
+
+ "Click aquí para ir a Google" con un enlace que aparentemente lleva al inicio de la página actual.
+Similar al cuarto enlace, pero esta vez la URL de anclaje es "#arriba". Esto probablemente esté diseñado para llevar al usuario a la sección identificada por el anclaje con nombre "arriba".
+
+Este es un elemento de anclaje con nombre y un atributo id coincidente. Proporciona un punto en la página al que otros enlaces pueden dirigirse utilizando "#arriba".
