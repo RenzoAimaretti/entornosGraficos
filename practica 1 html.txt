@@ -95,3 +95,5 @@ No hay visualización directa para estos atributos en el contenido del enlace.
 Similar al cuarto enlace, pero esta vez la URL de anclaje es "#arriba". Esto probablemente esté diseñado para llevar al usuario a la sección identificada por el anclaje con nombre "arriba".
 
 Este es un elemento de anclaje con nombre y un atributo id coincidente. Proporciona un punto en la página al que otros enlaces pueden dirigirse utilizando "#arriba".
+
+b) 
