@@ -223,6 +223,109 @@ Los demás aspectos, como los atributos value, etiquetas de texto y la estructur
 k) 
 Estos elementos <select> crean menús desplegables con opciones organizadas en grupos. El primer <select> permite una sola selección, mientras que el segundo <select> permite selección múltiple.
 
+EJ 4) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web con Marcos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1><P align="left"> <img src="logo-utn.png" alt="Logo" style=" width:500px"> </P></h1>
+    </header>
+
+    <h2> <B><FONT SIZE="500">AÑO 2008</FONT></B></h2>
+
+    <table width="200" border="1">
+        <tr>
+        <td colspan="3"><div
+        align="center"><B>Exámenes</B></div></td>
+        </tr>
+        <tr>
+        <td colspan="2"rowspan="2">Fecha: 14/8/2023</td>
+        <td>Aprobados</td>
+        </tr>
+        <tr>
+        <td width="50%">24/30</td>
+        </tr>
+        </table>
+        
+    <OL>
+        <LI>
+            <a href="#Enunciados.htm" target="main">Enunciado del examen</a>
+        </LI>
+        <LI>
+            <a href="Resolucion.htm" target="blank">Resolución</a>
+        </LI>
+    </OL>
+    <BR></BR>
+    <h3>
+        <FONT SIZE="3">Puede realizar consultas completando el siguiente formulario:</FONT>
+    </h3>
+    <form 
+        id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+        <fieldset>
+        e-mail: <input type="text" id="usu1" name="usu1" value="" /><br />
+        consulta: <input type="password" id="clave1" name="clave1" value="" />
+        </fieldset>
+        <input type="submit" id="boton1" name="boton1" value="ENVIAR" /> <input type="submit" id="boton1" name="boton1" value="BORRAR" />
+    </form>
+<BR></BR>
+    <h4>
+        <FONT SIZE="6">Enunciado del examen</FONT>
+    </h4>
+
+    <p>Ejercicio 1:.............
+        ........................
+    </p>
+
+    <p>Ejercicio 2:.............
+        ........................
+    </p>
+    
+<BR></BR>
+    <p>Para más información dirigirse a <a href="contacto@xx.com">contacto@xx.com</a></p>
+
+</body>
+
+CSS:
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, nav, main, footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+}
+
+nav ul, footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li, footer ul li {
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+
 EJ 5) 
 documento html: 
 
